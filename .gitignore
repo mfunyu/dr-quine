@@ -1,0 +1,8 @@
+*
+!*/
+!*.c
+!Makefile
+!*.s
+!*.py
+!.gitignore
+!README.md
