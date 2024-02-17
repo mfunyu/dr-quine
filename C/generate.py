@@ -17,6 +17,7 @@ def generate_string(source, print_function):
 		else:
 			source_string += c
 
+	print("source string:")
 	print(source_string)
 
 def generate_print(source):
@@ -29,6 +30,7 @@ def generate_print(source):
 
 	print_function += ");"
 
+	print("print function:")
 	print(print_function)
 	return print_function
 

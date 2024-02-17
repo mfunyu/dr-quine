@@ -1,9 +1,7 @@
-// :)
-#include <stdio.h>
-
 /*
-	Comment Outside of Functions
+	This program will print its own source when run.
 */
+#include <stdio.h>
 
 void	print_smiley()
 {
@@ -16,6 +14,6 @@ int	main()
 		Comment inside of main
 	*/
 	char *source = "";
-	print_smiley();
 	REPLACE
+	print_smiley();
 }
